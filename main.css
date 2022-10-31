@@ -1,0 +1,211 @@
+.title {
+  font-size: 2rem;
+  color: white;
+}
+
+footer {
+  padding: 25px;
+  height: 15vh;
+  background-color: #3c4048;
+  color: #eaeaea;
+  border-top: 2px solid #b2b2b2;
+}
+
+#home-landing {
+  height: 92vh;
+  background-color: #eaeaea;
+  background-size: cover;
+  padding: 50px;
+}
+#home-landing #landing-text {
+  font-weight: 700;
+  color: white;
+  font-size: 3rem;
+  text-shadow: -2px 0px 13px rgb(0, 0, 0);
+}
+#home-landing #landing-subtext {
+  display: inline-block;
+  padding: 20px;
+  background-color: #3c4048;
+  color: white;
+  border: 3px solid #00abb3;
+  border-radius: 40px 0px 40px 0px;
+  box-shadow: -5px 10px 5px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -5px 10px 5px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 10px 5px 4px rgba(0, 0, 0, 0.75);
+}
+#home-landing #landing-subtext div > a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  #home-landing {
+    padding: 20px;
+  }
+}
+#section-a {
+  min-height: 100vh;
+  border-top: 10px solid black;
+}
+#section-a .section-a-card {
+  padding: 15px;
+  background-color: white;
+  border: 2px solid #3c4048;
+  border-radius: 15px;
+  box-shadow: -9px 13px 28px -6px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: -9px 13px 28px -6px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -9px 13px 28px -6px rgba(0, 0, 0, 0.44);
+}
+
+.img-hover-zoom {
+  height: 400px;
+  overflow: hidden;
+  border: 2px solid #eaeaea;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  background-color: #3c4048;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+  width: 300px;
+}
+.img-hover-zoom img:hover {
+  transform: scale(1.2);
+}
+
+.img-hover-zoom:hover {
+  box-shadow: 0px 0px 13px 5px #eaeaea;
+  -webkit-box-shadow: 0px 0px 13px 5px #eaeaea;
+  -moz-box-shadow: 0px 0px 13px 5px #eaeaea;
+}
+
+#talent {
+  min-height: 92vh;
+}
+#talent #talent-row {
+  margin: 0;
+}
+#talent #talent-row #sidebar-specs {
+  background-color: #b2b2b2;
+}
+#talent #talent-row #portfolios {
+  height: 100%;
+  background-color: #eaeaea;
+}
+#talent #talent-row #portfolios #portfolios-header-div {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+#talent #talent-row #portfolios #portfolios-header-div #portfolios-header-text {
+  font-weight: 700;
+  color: #3c4048;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+#talent #talent-row #portfolios #portfolio-cards {
+  padding: 50px;
+}
+#talent #talent-row #sidebar-filler {
+  background-color: #b2b2b2;
+}
+
+.company {
+  min-height: 100vh;
+}
+
+.login {
+  min-height: 90vh;
+  background-color: #eaeaea;
+  padding-top: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.top-padding {
+  padding-top: 5vh;
+}
+
+.fullHeight {
+  min-height: 100%;
+}
+
+.color1 {
+  color: #00abb3;
+}
+
+.color2 {
+  color: #3c4048;
+}
+
+.color3 {
+  color: #b2b2b2;
+}
+
+.color4 {
+  color: #eaeaea;
+}
+
+.bg1 {
+  background-color: #00abb3;
+}
+
+.bg2 {
+  background-color: #3c4048;
+}
+
+.bg3 {
+  background-color: #b2b2b2;
+}
+
+.bg4 {
+  background-color: #eaeaea;
+}
+
+.centered-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #00abb3 #eaeaea;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #eaeaea;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00abb3;
+  border-radius: 0px;
+  border: 0px solid #ffffff;
+}
+
+.portfolio-card {
+  border: 1px solid #00abb3;
+  border-radius: 15px;
+  box-shadow: -9px 13px 28px -6px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: -9px 13px 28px -6px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -9px 13px 28px -6px rgba(0, 0, 0, 0.44);
+}
+
+.portfolio-avatar {
+  width: 150px;
+}/*# sourceMappingURL=main.css.map */
